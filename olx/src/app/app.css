@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  background: #808080;
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header input {
+  padding: 8px;
+  width: 300px;
+}
+
+.sell-btn {
+  background: #0078fa;
+  font-weight: bold;
+   padding: 8px 12px;
+    border: none;
+    color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  background: white;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 20px;
+  width: 100%;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+.detail {
+  padding: 20px;
+  width: 100%;
+}
+
+.detail img {
+  width: 400px;
+}
+
+.login-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.welcome-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+.search-box {
+  display: flex;
+  gap: 10px;
+}
+
+.search-box input {
+  padding: 8px;
+  width: 550px;
+}
+
+.search-box button {
+  padding: 8px 12px;
+  background-color: #0078fa;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.logo{
+  color: #0078fa;
+    font-weight: bold;
+}
+
+.login-btn{
+  padding: 8px 12px;
+  background-color: #0078fa;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white; 
+}
+
+.back{
+   background-color: #0078fa;
+     border: none;
+     color: white;
+}
+.logout{
+  background: #0078fa;
+  font-weight: bold;
+   padding: 8px 12px;
+    border: none;
+    color: white;
+} 

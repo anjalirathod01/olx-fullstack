@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OLX.API", "OLX.API\OLX.API.csproj", "{851557B3-EFBC-49F2-A63F-AB4039DD6782}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{851557B3-EFBC-49F2-A63F-AB4039DD6782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851557B3-EFBC-49F2-A63F-AB4039DD6782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851557B3-EFBC-49F2-A63F-AB4039DD6782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851557B3-EFBC-49F2-A63F-AB4039DD6782}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38F45947-FDC0-49E9-A111-6A718A85A747}
+	EndGlobalSection
+EndGlobal

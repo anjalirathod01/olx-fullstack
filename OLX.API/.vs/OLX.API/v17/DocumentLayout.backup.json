@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\OLX.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|c:\\users\\dell\\source\\repos\\olx.api\\olx.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|solutionrelative:olx.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|c:\\users\\dell\\source\\repos\\olx.api\\olx.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|solutionrelative:olx.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|c:\\users\\dell\\source\\repos\\olx.api\\olx.api\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|solutionrelative:olx.api\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|c:\\users\\dell\\source\\repos\\olx.api\\olx.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|solutionrelative:olx.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|c:\\users\\dell\\source\\repos\\olx.api\\olx.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|solutionrelative:olx.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|c:\\users\\dell\\source\\repos\\olx.api\\olx.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|solutionrelative:olx.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|c:\\users\\dell\\source\\repos\\olx.api\\olx.api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|solutionrelative:olx.api\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|c:\\users\\dell\\source\\repos\\olx.api\\olx.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|solutionrelative:olx.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|c:\\users\\dell\\source\\repos\\olx.api\\olx.api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|solutionrelative:olx.api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|c:\\users\\dell\\source\\repos\\olx.api\\olx.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{851557B3-EFBC-49F2-A63F-AB4039DD6782}|OLX.API\\OLX.API.csproj|solutionrelative:olx.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "OLX.API\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Models\\Category.cs",
+              "RelativeToolTip": "OLX.API\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T09:16:20.12Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "OLX.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "OLX.API\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T09:23:13.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Program.cs",
+              "RelativeDocumentMoniker": "OLX.API\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Program.cs",
+              "RelativeToolTip": "OLX.API\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwBgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T09:19:29.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Models\\LoginDto.cs",
+              "RelativeDocumentMoniker": "OLX.API\\Models\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Models\\LoginDto.cs",
+              "RelativeToolTip": "OLX.API\\Models\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T06:00:21.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "OLX.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "OLX.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T05:40:27.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "OLX.API\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Models\\User.cs",
+              "RelativeToolTip": "OLX.API\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T09:15:18.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "OLX.API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "OLX.API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T09:18:26.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "OLX.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "OLX.API\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T07:53:01.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "OLX.API\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\Models\\Product.cs",
+              "RelativeToolTip": "OLX.API\\Models\\Product.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T09:17:04.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\appsettings.json",
+              "RelativeDocumentMoniker": "OLX.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\OLX.API\\OLX.API\\appsettings.json",
+              "RelativeToolTip": "OLX.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-17T09:18:54.863Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

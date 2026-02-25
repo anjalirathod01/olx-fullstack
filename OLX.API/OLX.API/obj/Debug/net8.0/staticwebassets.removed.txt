@@ -1,0 +1,9 @@
+C:\Users\DELL\source\repos\OLX.API\OLX.API\wwwroot\images\phone1.png
+C:\Users\DELL\source\repos\OLX.API\OLX.API\wwwroot\images\phone2.png
+C:\Users\DELL\source\repos\OLX.API\OLX.API\wwwroot\images\phone3.png
+C:\Users\DELL\source\repos\OLX.API\OLX.API\wwwroot\images\Audi.png
+C:\Users\DELL\source\repos\OLX.API\OLX.API\wwwroot\images\Volvo.png
+C:\Users\DELL\source\repos\OLX.API\OLX.API\wwwroot\images\kia.png
+C:\Users\DELL\source\repos\OLX.API\OLX.API\wwwroot\images\Laptop.png
+C:\Users\DELL\source\repos\OLX.API\OLX.API\wwwroot\images\Headphone.png
+C:\Users\DELL\source\repos\OLX.API\OLX.API\wwwroot\images\light.png

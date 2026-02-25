@@ -1,0 +1,97 @@
+<div class="header">
+  <h2 class="logo">OLX</h2>
+
+  <div class="search-box">
+  <input type="text"
+         placeholder="Search products..."
+         [(ngModel)]="searchText">
+
+  <button (click)="search()">Search</button>
+</div>
+  
+
+  <button *ngIf="!isLoggedIn"
+        (click)="showLogin = true"
+        class="login-btn">
+  Login
+</button>
+
+
+<div *ngIf="isLoggedIn" class="welcome-box">
+  Welcome {{userName}}
+  <button (click)="logout()"  class="logout">Logout</button>
+</div>
+
+<button class="sell-btn" (click)="sellProduct()">+ SELL</button>
+</div>
+
+<div class="container">
+
+  
+  <div class="sidebar">
+
+   <h3>Category</h3>
+<select [(ngModel)]="selectedCategoryId"
+        (change)="applyFilters()">
+
+  <option value="">All</option>
+
+  <option *ngFor="let c of categories"
+          [value]="c.id">
+    {{c.name}}
+  </option>
+
+</select>
+
+    <h3>Location</h3>
+    <select [(ngModel)]="selectedLocation" (change)="applyFilters()">
+      <option value="">All</option>
+      <option *ngFor="let l of locations">{{l}}</option>
+    </select>
+
+  </div>
+
+
+  <div class="products" *ngIf="!selectedProduct">
+
+    <div class="card" *ngFor="let p of filteredProducts"
+         (click)="viewProduct(p)">
+
+      <img [src]="p.imageUrl" alt="image">
+
+      <h3>{{p.title}}</h3>
+      <p class="price">₹ {{p.price}}</p>
+      <p>{{p.location}}</p>
+
+    </div>
+
+  </div>
+
+  
+  <div class="detail" *ngIf="selectedProduct">
+
+    <button (click)="backToList()"  class="back"><-</button>
+ 
+
+
+  <img [src]="selectedProduct.imageUrl">
+
+    <h2>{{selectedProduct.title}}</h2>
+    <h3>₹ {{selectedProduct.price}}</h3>
+    <p><b>Location:</b> {{selectedProduct.location}}</p>
+    <p>{{selectedProduct.description}}</p>
+
+  </div>
+
+</div>
+
+
+<div class="login-modal" *ngIf="showLogin">
+  <div class="login-box">
+    <h3>Login</h3>
+    <input type="email" placeholder="Email" [(ngModel)]="email">
+    <input type="password" placeholder="Password" [(ngModel)]="password">
+    <button (click)="login()">Login</button>
+    <button (click)="showLogin=false">Close</button>
+  </div>
+</div>
