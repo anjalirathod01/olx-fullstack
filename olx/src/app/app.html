@@ -1,97 +1,251 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 <div class="header">
-  <h2 class="logo">OLX</h2>
 
-  <div class="search-box">
-  <input type="text"
-         placeholder="Search products..."
-         [(ngModel)]="searchText">
+<div class="logo">OLX</div>
 
-  <button (click)="search()">Search</button>
-</div>
-  
+<div class="location-box">
 
-  <button *ngIf="!isLoggedIn"
-        (click)="showLogin = true"
-        class="login-btn">
-  Login
-</button>
+<span class="material-icons">location_on</span>
 
-
-<div *ngIf="isLoggedIn" class="welcome-box">
-  Welcome {{userName}}
-  <button (click)="logout()"  class="logout">Logout</button>
-</div>
-
-<button class="sell-btn" (click)="sellProduct()">+ SELL</button>
-</div>
-
-<div class="container">
-
-  
-  <div class="sidebar">
-
-   <h3>Category</h3>
-<select [(ngModel)]="selectedCategoryId"
-        (change)="applyFilters()">
-
-  <option value="">All</option>
-
-  <option *ngFor="let c of categories"
-          [value]="c.id">
-    {{c.name}}
-  </option>
-
+<select [(ngModel)]="selectedLocation" (change)="applyFilters()">
+<option value="">India</option>
+<option *ngFor="let l of locations">{{l}}</option>
 </select>
 
-    <h3>Location</h3>
-    <select [(ngModel)]="selectedLocation" (change)="applyFilters()">
-      <option value="">All</option>
-      <option *ngFor="let l of locations">{{l}}</option>
-    </select>
+</div>
 
-  </div>
+<div class="search">
 
+<input placeholder="Find Cars, Mobile Phones and more....."
+[(ngModel)]="searchText">
 
-  <div class="products" *ngIf="!selectedProduct">
+<button (click)="search()">
+<span class="material-icons">search</span>
+</button>
 
-    <div class="card" *ngFor="let p of filteredProducts"
-         (click)="viewProduct(p)">
+</div>
 
-      <img [src]="p.imageUrl" alt="image">
+<div class="wishlist-box" (click)="showWishlist=true">
 
-      <h3>{{p.title}}</h3>
-      <p class="price">₹ {{p.price}}</p>
-      <p>{{p.location}}</p>
+<span class="material-icons">favorite</span>
+<span class="wish-count">{{wishlist.length}}</span>
 
-    </div>
+</div>
 
-  </div>
+<div *ngIf="!isLoggedIn" class="login-box"
+(click)="showLogin=true">
 
-  
-  <div class="detail" *ngIf="selectedProduct">
+<span class="material-icons login-icon">person</span>
+<span class="login-text">Login</span>
 
-    <button (click)="backToList()"  class="back"><-</button>
- 
+</div>
 
+<div *ngIf="isLoggedIn" class="welcome">
 
-  <img [src]="selectedProduct.imageUrl">
+Welcome {{userName}}
 
-    <h2>{{selectedProduct.title}}</h2>
-    <h3>₹ {{selectedProduct.price}}</h3>
-    <p><b>Location:</b> {{selectedProduct.location}}</p>
-    <p>{{selectedProduct.description}}</p>
+<button class="logout"   (click)="logout()">Logout</button>
 
-  </div>
+</div>
+
+<button class="sell" (click)="sellProduct()">+ SELL</button>
 
 </div>
 
 
-<div class="login-modal" *ngIf="showLogin">
-  <div class="login-box">
-    <h3>Login</h3>
-    <input type="email" placeholder="Email" [(ngModel)]="email">
-    <input type="password" placeholder="Password" [(ngModel)]="password">
-    <button (click)="login()">Login</button>
-    <button (click)="showLogin=false">Close</button>
-  </div>
+<div class="categories">
+
+<span class="allcat" (click)="showAll()">
+All Categories
+</span>
+
+<span *ngFor="let c of categories"
+(click)="selectCategory(c.id)">
+{{c.name}}
+</span>
+
 </div>
+
+
+
+
+
+
+
+<div class="products">
+
+<div class="card" *ngFor="let p of filteredProducts">
+
+<div class="heart"
+(click)="toggleWishlist(p);$event.stopPropagation()">
+
+<span class="material-icons"
+[style.color]="isWishlisted(p)?'red':'gray'">
+favorite
+</span>
+
+</div>
+
+<img [src]="p.imageUrl"
+(click)="openProduct(p)">
+
+<h3>{{p.title}}</h3>
+
+<p>₹ {{p.price}}</p>
+
+<p class="loc">{{p.location}}</p>
+
+</div>
+
+</div>
+
+
+<!-- PRODUCT DETAIL -->
+
+<div class="overlay" *ngIf="showDetail">
+
+<div class="detail">
+
+<button class="close"
+(click)="closeDetail()">✖</button>
+
+<img [src]="selectedProduct.imageUrl">
+
+<h2>{{selectedProduct.title}}</h2>
+
+<h3>₹ {{selectedProduct.price}}</h3>
+
+<p>{{selectedProduct.description}}</p>
+
+<p><b>Location:</b> {{selectedProduct.location}}</p>
+
+</div>
+
+</div>
+
+
+<!-- WISHLIST -->
+
+<div class="popup" *ngIf="showWishlist">
+
+<div class="box">
+
+<h2>My Wishlist</h2>
+
+<div *ngFor="let w of wishlist" class="wish-item">
+
+<img [src]="w.imageUrl">
+
+<div>
+<h4>{{w.title}}</h4>
+<p>₹ {{w.price}}</p>
+</div>
+
+</div>
+
+<button (click)="showWishlist=false">Close</button>
+
+</div>
+
+</div>
+
+
+<!-- LOGIN -->
+
+<div class="popup" *ngIf="showLogin">
+
+<div class="box">
+
+<h2>Login</h2>
+
+<input placeholder="Email" [(ngModel)]="email">
+<input type="password" placeholder="Password"
+[(ngModel)]="password">
+
+<button (click)="login()">Login</button>
+
+<p>
+
+No account?
+
+<span class="link"
+(click)="showLogin=false;showRegister=true">
+Register
+</span>
+
+</p>
+
+</div>
+
+</div>
+
+
+<!-- REGISTER -->
+
+<div class="popup" *ngIf="showRegister">
+
+<div class="box">
+
+<h2>Register</h2>
+
+<input placeholder="Name"
+[(ngModel)]="registerName">
+
+<input placeholder="Email"
+[(ngModel)]="registerEmail">
+
+<input type="password"
+[(ngModel)]="registerPassword">
+
+<button (click)="register()">Register</button>
+<p>
+Already have account?
+<span class="link"
+(click)="showRegister=false;showLogin=true">
+Login
+</span>
+</p>
+</div>
+
+</div>
+<footer class="footer">
+
+<div class="footer-top">
+
+<div class="footer-col">
+<h4>POPULAR LOCATIONS</h4>
+<p>Delhi</p>
+<p>surat</p>
+<p>Gandhinagar</p>
+</div>
+
+<div class="footer-col">
+<h4>TRENDING LOCATIONS</h4>
+<p>Ahemdabad</p>
+<p>Vadodra</p>
+<p>Kalol</p>
+</div>
+
+<div class="footer-col">
+<h4>ABOUT US</h4>
+<p>About OLX</p>
+<p>Careers</p>
+<p>Contact Us</p>
+</div>
+
+<div class="footer-col">
+<h4>OLX APPS</h4>
+
+<div class="app-buttons">
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p>© 2026 OLX Clone Project</p>
+</div>
+
+</footer>

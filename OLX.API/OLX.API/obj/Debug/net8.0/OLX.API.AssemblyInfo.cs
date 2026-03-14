@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OLX.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad0150d178392539408afdc6fde77dbf9258c764")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5875eff4105b00548e3617947f469f5aa93635dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("OLX.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OLX.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
